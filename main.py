@@ -8,7 +8,7 @@ from datetime import datetime
 
 
 HEIGHT, WIDTH = 11, 15
-INIT_GROWTH_VECTOR = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ]
+INIT_GROWTH_VECTOR = [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, ]
 
 VEGF_clip = True
 CLIP_THRESHOLD = 1e-4
