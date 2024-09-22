@@ -16,7 +16,7 @@ CLIP_THRESHOLD = 1e-4
 RADIUS = 1
 PARAMETERS = {
     'alpha_P': 0.27067,
-    'alpha_V': 0.1,  # VEGF concentration threshold for the Endothelial to Tip cell transition
+    'alpha_V': 0.05,  # VEGF concentration threshold for the Endothelial to Tip cell transition # Changed because P was not increaseing and S and T were not showing
     'radius': RADIUS,  # radius of the cell
     'd_min': 10,  # estimate, based on 8*R_A (tumor action radius), R_A = 1.214*R, where R = tumor cell radius
     'd_PS': 1.55 * RADIUS,  # minimal distance from tip cell for S -> E transition
