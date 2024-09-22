@@ -18,11 +18,11 @@ PARAMETERS = {
     'alpha_P': 0.27067,
     'alpha_V': 0.05,  # VEGF concentration threshold for the Endothelial to Tip cell transition # Changed because P was not increaseing and S and T were not showing
     'radius': RADIUS,  # radius of the cell
-    'd_min': 10,  # estimate, based on 8*R_A (tumor action radius), R_A = 1.214*R, where R = tumor cell radius
+    'd_min': 5,  # estimate, based on 8*R_A (tumor action radius), R_A = 1.214*R, where R = tumor cell radius
     'd_PS': 1.55 * RADIUS,  # minimal distance from tip cell for S -> E transition
     'd_SP': 1.55 * RADIUS,  # maximal distance from tip cell for E -> S transition
-    'S_delay': 4,
-    'SS_delay': 3
+    'S_delay': 2,
+    'SS_delay': 1
 }
 
 TIME_STAMP = str(datetime.now().strftime("%Y-%m-%d_%H%M"))
